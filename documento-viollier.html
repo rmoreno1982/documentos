@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<style>
+body {
+    font-family: 'Calibri Light', sans-serif;
+    
+    margin: 0;
+}
+h1 {
+    font-size: 26px;
+    margin: 0;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+h2 {
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.titulo {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0px 0.7rem;
+    color: #000;
+    display: block;
+    border-left: 10px Solid #1ABB9C;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+.titulo-sub {
+    font-size: 18px;
+    font-weight: 600;
+    padding:0.7rem;
+    color: #000;
+    display: block;
+    background-color: #bcdad4;
+}
+.blq {
+    margin-bottom: 1em;
+    padding: 15px;
+}
+.tabla {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+.tabla th {
+    background-color: #2d323e;
+    color: #fff;
+}
+.tabla td {
+    background-color: #f8f8f8;
+}
+.tabla td, .tabla th {
+    padding:0.7rem;
+    text-align: left;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d8d8d8;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5em;
+    padding: 20px;
+    background: #ececec;
+}
+    .informe{padding: 0 15px;}
+.logo {
+    width: 90px;
+    margin-right: 20px;
+}
+.firma {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.firma strong {
+    font-size: 20px;
+    border-bottom: 3px solid #DAEBE6;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+</style>
+</head>
+
+<body>
+<div class="header"> <img src="logo-V-color.png" class="logo">
+  <div class="titulos-head">
+    <h1>Informe de Pérdida Probable</h1>
+    <h2>Folio N° ///folio///</h2>
+    <h3>Siniestro N° ***inspeccion_datossiniestro_nsiniestro***</h3>
+  </div>
+</div>
+<div class="informe">
+<div class="titulo"> I. INFORMACIÓN BÁSICA</div>
+<table class="tabla">
+  <thead>
+    <tr>
+      <th>Asegurado</th>
+      <th colspan="4">***inspeccion_datossiniestro_nombreasegurado***</th>
+    </tr>
+    <tr>
+      <th>Rut Asegurado</th>
+      <th colspan="4">***inspeccion_datossiniestro_rutasegurado***</th>
+    </tr>
+    <tr>
+      <td>Compañia de Seguros</td>
+      <td colspan="4">***documentos_documentos_nombrecompania***</td>
+    </tr>
+    <tr>
+      <td>Póliza N°</td>
+      <td> ***inspeccion_actainspeccion_numpoliza***</td>
+      <td>Ítem N°</td>
+      <td colspan="2"> ***documentos_documentos_item***</td>
+    </tr>
+    <tr>
+      <td> Vigencia</td>
+      <td> Desde el</td>
+      <td> ***documentos_documentos_vigenciadesde***</td>
+      <td> Hasta el</td>
+      <td> ***documentos_documentos_vigenciahasta***</td>
+    </tr>
+    <tr>
+      <td> Materia Asegurada</td>
+      <td
+                colspan="2">***analisis_analisiscobertura_materiaasegurada***</td>
+      <td> Monto(UF)</td>
+      <td> ***analisis_analisiscobertura_montoasegurado***</td>
+    </tr>
+    <tr>
+      <td> Ocupación</td>
+      <td colspan="4">***inspeccion_riesgo_materia_usoydestino***</td>
+    </tr>
+    <tr>
+      <td> Corredor</td>
+      <td colspan="4">***documentos_documentos_nombrecorredor***</td>
+    </tr>
+  </thead>
+</table>
+<div
+     class="titulo"> II. DATOS DEL SINIESTRO</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td>Lugar del
+        Siniestro</td>
+      <td colspan="3">***inspeccion_datossiniestro_lugarinspeccion***</td>
+      <td colspan="3">Comuna</td>
+      <td colspan="2">***inspeccion_datossiniestro_comuna***</td>
+    </tr>
+    <tr>
+      <td> Fecha del Siniestro</td>
+      <td colspan="3">***inspeccion_datossiniestro_fechasiniestro***</td>
+      <td colspan="3">Hora</td>
+      <td colspan="2">***inspeccion_datossiniestro_horasiniestro***</td>
+    </tr>
+    <tr>
+      <td> Fecha Denuncio</td>
+      <td colspan="8">***inspeccion_datossiniestro_fechadenuncio***</td>
+    </tr>
+    <tr>
+      <td> Fecha Asignación</td>
+      <td colspan="8">***inspeccion_datossiniestro_fechaasignacion***</td>
+    </tr>
+    <tr>
+      <td> Fecha Inspección</td>
+      <td colspan="8">***inspeccion_datossiniestro_fechainspeccion***</td>
+    </tr>
+    <tr>
+      <td> Texto Denuncio</td>
+      <td colspan="8">***inspeccion_datossiniestro_descripciondenuncio***</td>
+    </tr>
+    <tr>
+      <td> Inspección</td>
+      <td colspan="8">Recibida la denuncia se instruyó a nuestro inspector, para que concurriera al lugar con el
+        fin de establecer la causa del siniestro, y apreciar la magnitud de los daños. La inspección se realizó
+        el día ***inspeccion_datossiniestro_fechainspeccion*** , en compañía de
+        ***inspeccion_datossiniestro_nombrecontacto***.</td>
+    </tr>
+    <tr>
+      <td> POL</td>
+      <td colspan="8">***analisis_analisiscobertura_pol***</td>
+    </tr>
+    <tr>
+      <td> CAD</td>
+      <td colspan="8">***analisis_analisiscobertura_cad*** ***analisis_analisiscobertura_caddos***</td>
+    </tr>
+    <tr>
+      <td> Causa Siniestro</td>
+      <td colspan="8">***inspeccion_causadanos_origensiniestro***</td>
+    </tr>
+    <tr>
+      <td> Descripción de Daños</td>
+      <td colspan="8">///recintos///</td>
+    </tr>
+    <tr>
+      <td> Recupero Legal</td>
+      <td colspan="8">***inspeccion_riesgo_recupero_recuperooption***</td>
+    </tr>
+    <tr>
+      <td> Salvataje</td>
+      <td colspan="3">***inspeccion_riesgo_salvataje_salvatajeselect***</td>
+      <td colspan="3">Encargado</td>
+      <td colspan="2">***inspeccion_riesgo_salvataje_nombreresponsablecs***</td>
+    </tr>
+    <tr>
+      <td> Defensa Legal</td>
+      <td colspan="8">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<div class="titulo"> III. ESTIMACIÓN DE LA PERDIDA POR MATERIA ASEGURADA</div>
+<div class="blq">///tabla_perdida/// ///tabla_perdida_ipp///</div>
+<div
+     class="titulo"> IV. ANALISTA DEL CASO</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td> Analista</td>
+      <td colspan="4">***documentos_documentos_nombreanalista***</td>
+    </tr>
+    <tr>
+      <td> E-mail</td>
+      <td colspan="4">***documentos_documentos_correoanalista***</td>
+    </tr>
+  </tbody>
+</table>
+<div
+     class="titulo"> V. ANEXO FOTOGRÁFICO</div>
+<div class="blq">#imagen_categoria_principal# #imagen_categoria_secundaria# ***#img_dano_categoria_origendano=1#***
+  ***#img_dano_categoria_origendano=2#***</div>
+<div class="titulo"> VI. ACTA DE INSPECCIÓN</div>
+<div class="titulo-sub"> ANTECEDENTES GENERALES</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td>N °
+        Siniestro</td>
+      <td colspan="3">***inspeccion_datossiniestro_nsiniestro***</td>
+      <td colspan="3">Poliza</td>
+      <td colspan="2">***inspeccion_actainspeccion_numpoliza***</td>
+    </tr>
+    <tr>
+      <td>Asegurado </td>
+      <td colspan="3">***inspeccion_datossiniestro_nombreasegurado***</td>
+      <td colspan="3">Rut</td>
+      <td colspan="2">***inspeccion_datossiniestro_rutasegurado***</td>
+    </tr>
+    <tr>
+      <td>Lugar
+        Siniestro</td>
+      <td colspan="3">***inspeccion_actainspeccion_lugarsiniestro***</td>
+      <td colspan="3">Comuna</td>
+      <td colspan="2">***inspeccion_actainspeccion_comuna***</td>
+    </tr>
+    <tr>
+      <td>Fecha
+        Siniestro</td>
+      <td colspan="3">***inspeccion_actainspeccion_fechasiniestro***</td>
+      <td colspan="3">Hora Siniestro</td>
+      <td colspan="2">***inspeccion_actainspeccion_horasiniestro***</td>
+    </tr>
+    <tr>
+      <td>Fecha
+        Inspección</td>
+      <td colspan="3">***inspeccion_actainspeccion_fechainspeccion***</td>
+      <td colspan="3">Hora Inspección</td>
+      <td colspan="2">***inspeccion_actainspeccion_horainspeccion***</td>
+    </tr>
+    <tr>
+      <td>Fono
+        Asegurado</td>
+      <td colspan="3">***inspeccion_actainspeccion_fonoasegurado***</td>
+      <td colspan="3">Celular</td>
+      <td colspan="2">***inspeccion_actainspeccion_celular***</td>
+    </tr>
+    <tr>
+      <td>Comuna</td>
+      <td colspan="3">***inspeccion_actainspeccion_comuna***</td>
+      <td colspan="3">Lugar Inspeccionado</td>
+      <td colspan="2">***inspeccion_actainspeccion_lugarinspeccionado***</td>
+    </tr>
+    <tr>
+      <td>Contacto </td>
+      <td colspan="3">***inspeccion_actainspeccion_contacto***</td>
+      <td colspan="3">Email Asegurado</td>
+      <td colspan="2">***inspeccion_actainspeccion_email***</td>
+    </tr>
+  </tbody>
+</table>
+<div
+     class="titulo-sub"> NOTIFICACIÓN</div>
+<div class="blq">El Artículo 556 Nº 4 del Código de Comercio, al igual que el contrato de Seguros suscrito
+  manifiesta que el asegurado no podrá hacer abandono total o parcial de los bienes afectados, por lo tanto deberán
+  conservar bajo su constancia los objetos dañados hasta el retiro por parte de la Compañía Aseguradora o de quien
+  esta designe para estos efectos.<br>
+  Los bienes que el Asegurado y/o Informes Técnicos determinen como irrecuperables
+  y/o su pérdida total, serán retirados para su venta en calidad de Salvataje “Por cuenta de quien corresponda” cuya
+  orden emanará del Liquidador Oficial de Seguros o los Aseguradores involucrados.<br>
+  El presupuesto de reparación
+  deberá ser elaborado considerando unidad, cantidad, valor unitario, y total para cada partida afectada, más gastos
+  generales y utilidad.<br>
+  El Listado de Contenidos dañados o afectados, debe indicar, marca, modelo, año de
+  adquisición y valor actual de los bienes, respaldados por cotizaciones de mercado.<br>
+  Los documentos y/o
+  antecedentes solicitados tienen un carácter de preliminar y de su análisis dependerá si existirá una nueva solicitud
+  de antecedentes.<br>
+  La presente Acta, representa las gestiones u acciones iniciales del siniestro denunciado, cuyo
+  contenido será evaluado y analizado en base a los documentos aportados, reservándonos el derecho de visitar el
+  inmueble o inspeccionar los bienes afectados las veces que sea necesario para establecer real causa de los daños y/o
+  pérdidas.<br>
+  El Asegurado firma en señal de haber leído en todas sus partes este documento, certifica que fue
+  realizada la inspección de los daños producto del siniestro denunciado y recibe copia de la presente acta.</div>
+<div
+     class="titulo-sub"> MATERIA ,CAUSA Y CONSTANCIA</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td> Materia afectada</td>
+      <td colspan="4">***inspeccion_actainspeccion_materiaafectada***</td>
+    </tr>
+    <tr>
+      <td> Causa u Origen de Daños</td>
+      <td colspan="4">***inspeccion_actainspeccion_causaorigendanos***</td>
+    </tr>
+    <tr>
+      <td> Constancia/N°Parte</td>
+      <td colspan="4">***inspeccion_actainspeccion_numparte***</td>
+    </tr>
+    <tr>
+      <td> De fecha</td>
+      <td colspan="4">***inspeccion_actainspeccion_defecha***</td>
+    </tr>
+    <tr>
+      <td>A
+        la Fiscalia local de</td>
+      <td colspan="4">***inspeccion_actainspeccion_fiscalia***</td>
+    </tr>
+    <tr>
+      <td> N°Ruc</td>
+      <td colspan="4">***inspeccion_actainspeccion_nruc***</td>
+    </tr>
+    <tr>
+      <td> Observaciones</td>
+      <td colspan="4">***inspeccion_actainspeccion_observaciones***</td>
+    </tr>
+  </tbody>
+</table>
+<div
+     class="titulo-sub"> DAÑOS CONSTATADOS(DESCRIPCION DETALLA DE LOS HECHOS)</div>
+<div class="blq">***inspeccion_actainspeccion_danosconstatados***</div>
+<div
+     class="titulo-sub"> DOCUMENTOS QUE DEBEN SER ENTREGADOS</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td> Documentos Solicitados</td>
+      <td> ***inspeccion_actainspeccion_documentossolicitados***</td>
+    </tr>
+  </tbody>
+</table>
+<div
+     class="titulo-sub"> ASEGURADO ACEPTA QUE VIOLLIER PRESENTE PROPUESTA DE INDEMNIZACION</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td> Propuesta de Indemnizacíon</td>
+      <td colspan="4">***inspeccion_actainspeccion_propuestaindem***</td>
+    </tr>
+  </tbody>
+</table>
+<div
+     class="titulo-sub"> OTROS SEGUROS</div>
+<div class="blq">+++fn1+++ ***inspeccion_actainspeccion_otrosegurosino***=Si ---</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td> Posee Otro seguro</td>
+      <td colspan="4">**#*inspeccion_actainspeccion_otrosegurosino**#*</td>
+    </tr>
+    <tr>
+      <td> ¿En que Compañia?</td>
+      <td colspan="4">**#*inspeccion_actainspeccion_enquecompaniaacta**#*</td>
+    </tr>
+  </tbody>
+</table>
+<div class="blq">--- ***inspeccion_actainspeccion_otrosegurosino***=No ---</div>
+<table class="tabla">
+  <tbody>
+    <tr>
+      <td> Posee Otro seguro</td>
+      <td colspan="4">**#*inspeccion_actainspeccion_otrosegurosino**#*</td>
+    </tr>
+  </tbody>
+</table>
+<div class="blq">+++fn1+++</div>
+<div class="firma"> <strong>FIRMA ASEGURADO</strong>
+  <div class="firma-i">///firma_asegurado///</div>
+</div>
+<div class="firma"> <strong>FIRMA INSPECTOR</strong>
+  <div class="firma-i">///firma_inspector///</div>
+</div>
+</div>
+</body>
+</html>
